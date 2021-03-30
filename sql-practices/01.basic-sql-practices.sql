@@ -22,7 +22,7 @@ insert into pets values('마음이','kickscar','dog','m','2010-12-25','2021-03-3
 select * from pets;
 select name,birth from pets;
 select name,birth from pets order by birth asc;
-select count(*) from pets; -- null이 있는 컬럼은 세지않는다는 것을 주의
+select count(*) from pets; -- null이 있는 row 세지않는다는 것을 주의
 select count(*) from pets where death is not null;
 
 -- update(U)
